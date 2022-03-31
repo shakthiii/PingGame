@@ -35,7 +35,7 @@ function switchPlayer() {
 let diceRoll = function () {
   if (playing) {
     let random = Math.trunc(Math.random() * 6) + 1;
-    document.querySelector('.dice').src = `dice\dice-${random}.png`;
+    document.querySelector('.dice').src = `dice/dice-${random}.png`;
     document.querySelector('.dice').classList.remove('hidden');
     console.log(random);
     //condition
